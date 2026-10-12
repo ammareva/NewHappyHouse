@@ -1,5 +1,6 @@
-/*#include <iostream>
-
+#include <iostream>
+#include <string>
+/*
 int square(int x) {
     return x * x;
 }
@@ -12,6 +13,9 @@ int main() {
 */
 int cube(int x) {
     return x * x * x;
+}
+std::string concat(std::string a, std::string b, std::string c) {
+    return a + b + c;
 }
 int main() {
     int num = 5;
